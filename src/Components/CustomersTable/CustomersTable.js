@@ -185,7 +185,7 @@ export default function CustomersTable() {
           onPageChange={handleChangePage}
           onRowsPerPageChange={handleChangeRowsPerPage}
           labelRowsPerPage="Transactions per page"
-          rowsPerPageOptions={[5, 10, 25]} // You can customize the options as needed
+          rowsPerPageOptions={[5, 10, 25]}
         />
       </TableContainer>
     </Stack>
